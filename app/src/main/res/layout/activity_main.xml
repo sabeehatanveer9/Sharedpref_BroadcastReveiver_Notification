@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.naveed.sharedpref_broadcastreveiver_notification.MainActivity">
+
+
+    <Button
+        android:id="@+id/notification_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Notification"
+        android:textSize="15sp"
+        android:layout_margin="20dp"/>
+
+    <EditText
+        android:id="@+id/name_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:hint="Your Name"
+        android:gravity="center"
+        />
+
+
+    <Switch
+        android:id="@+id/wifi_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="wifi"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        />
+
+    <Switch
+        android:id="@+id/airplane_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Airplane Mode"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        />
+
+    <TextView
+        android:id="@+id/battery_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:textColor="#AA35B6"
+        />
+
+</LinearLayout>
